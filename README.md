@@ -27,6 +27,9 @@ String.prototype.toJadenCase = function () {
 }
 }
 
+var str = 'hello darling'
+str.toJadenCase('hello darling');
+
 ```
 
 ## Solution 2  
@@ -39,4 +42,6 @@ String.prototype.toJadenCase = function () {
   
   return this.split(' ').map(capitalizeFirstLetter).join(' ');
 };
+var str = 'hello darling'
+str.toJadenCase('hello darling');
 ```
